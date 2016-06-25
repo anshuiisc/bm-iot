@@ -1,6 +1,5 @@
 ## Benchmarks for IoT [VLDB/TPCTC-2016]
 ### IoT  Micro-benchmarks 
-- 
 | Task Name  | Category |
 | ------------- | ------------- |
 | XML Parsing  | Parse   |
@@ -18,7 +17,6 @@
 |   MQTT Publish | IO   |
 
 ### Application  benchmarks 
-- 
 | App. Name  | Code |
 | ------------- | ------------- |
 | Pre-processing & statistical summarization dataflow  | STATS   |
