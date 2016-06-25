@@ -26,7 +26,11 @@
 
 
 - Steps to run benchmark's
-- Once cloned , run mvn clean compile package -DskipTests
+- Once cloned  run 
+    ```
+   mvn clean compile package -DskipTests
+    ```
+
  
 
 
