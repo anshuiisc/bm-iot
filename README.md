@@ -1,5 +1,5 @@
 - Benchmark for IoT [VLDB/TPCTC-2016]
-- 13 IoT  Micro-benchmarks 
+- IoT  Micro-benchmarks 
 - 
 | Task Name  | Category |
 | ------------- | ------------- |
@@ -30,9 +30,13 @@
     ```
    mvn clean compile package -DskipTests
     ```
-
+- To submit jar microbenchmarks- 
+ ```
+ storm jar <stormJarPath>   in.dream_lab.bm.stream_iot.storm.topo.micro.MicroTopologyDriver  C  <microTaskName>  <inputDataFilePath used by CustomEventGen and spout>   PLUG-<expNum>  <rate as 1x,2x>  <outputLogPath>   <tasks.properties File Path>   <TopoName>
  
-
+ 
+ ```
+ For microTaskName please refer  switch logic in  MicroTopologyFactory class in package   "in.dream_lab.bm.stream_iot.storm.topo.micro"   
 
 Please refer the paper for detailed info  - <http://www.example.com> 
 
