@@ -1,5 +1,5 @@
 - Benchmark for IoT [VLDB/TPCTC-2016]
-- 13 Micro-benchmarks 
+- 13 IoT  Micro-benchmarks 
 - 
 | Task Name  | Category |
 | ------------- | ------------- |
@@ -16,6 +16,23 @@
 |   Azure Blob U/L | IO   |
 |   Azure Table Query | IO   |
 |   MQTT Publish | IO   |
+
+- Application  benchmarks 
+- 
+| App. Name  | Code |
+| ------------- | ------------- |
+| Pre-processing & statistical summarization dataflow  | STATS   |
+| Predictive Analytics dataflow   | PRED   |
+
+
+- Steps to run benchmark's
+- Once cloned , run mvn clean compile package -DskipTests
+ 
+
+
+Please refer the paper for detailed info  - <http://www.example.com> 
+
+
 
 
 
