@@ -1,5 +1,5 @@
-- Benchmark for IoT [VLDB/TPCTC-2016]
-- IoT  Micro-benchmarks 
+## Benchmarks for IoT [VLDB/TPCTC-2016]
+### IoT  Micro-benchmarks 
 - 
 | Task Name  | Category |
 | ------------- | ------------- |
@@ -17,7 +17,7 @@
 |   Azure Table Query | IO   |
 |   MQTT Publish | IO   |
 
-- Application  benchmarks 
+### Application  benchmarks 
 - 
 | App. Name  | Code |
 | ------------- | ------------- |
@@ -36,7 +36,7 @@
  
  
  ```
- For microTaskName please refer  switch logic in  MicroTopologyFactory class in package   "in.dream_lab.bm.stream_iot.storm.topo.micro"   
+- For microTaskName please refer  switch logic in  MicroTopologyFactory class in package   "in.dream_lab.bm.stream_iot.storm.topo.micro"   
 
 Please refer the paper for detailed info  - <http://www.example.com> 
 
