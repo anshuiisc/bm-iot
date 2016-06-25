@@ -60,10 +60,12 @@ public class IoTPredictionTopologySYS {
 
 
 //        String basePathForMultipleSpout="/Users/anshushukla/PycharmProjects/DataAnlytics1/Storm-Scheduler-SC-scripts/SYS-inputcsv-10spouts600mps-480sec-file/";
+// Path for base directory having input files for spout 
         String basePathForMultipleSpout="/Users/anshushukla/PycharmProjects/DataAnlytics1/Storm-Scheduler-SC-scripts/SYS-inputcsv-predict-10spouts600mps-480sec-file/";
 
         System.out.println("basePathForMultipleSpout is used -"+basePathForMultipleSpout);
 
+// Split the input data file to number of spouts for higher rate 
         String spout1InputFilePath=basePathForMultipleSpout+"SYS-inputcsv-predict-10spouts600mps-480sec-file1.csv";
         String spout2InputFilePath=basePathForMultipleSpout+"SYS-inputcsv-predict-10spouts600mps-480sec-file2.csv";
         String spout3InputFilePath=basePathForMultipleSpout+"SYS-inputcsv-predict-10spouts600mps-480sec-file3.csv";
