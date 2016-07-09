@@ -23,6 +23,8 @@
 | Predictive Analytics dataflow   | PRED   |
 
 
+![FCAST](https://github.com/anshuiisc/FIG/blob/master/STATS-and-PRED.png)
+
 - Steps to run benchmark's
 - Once cloned  run 
     ```
