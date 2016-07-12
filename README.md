@@ -1,4 +1,4 @@
-## Benchmarks for IoT [VLDB/TPCTC-2016]
+## IoT Benchmark using Apache Storm [VLDB/TPCTC-2016]
 ### IoT  Micro-benchmarks 
 | Task Name  | Category |
 | ------------- | ------------- |
